@@ -1,0 +1,12 @@
+.navbar {
+	background-color: #fff;
+}
+
+.navItem {
+	position: relative;
+	text-align: center;
+}
+
+.active {
+	color: red;
+}
