@@ -67,6 +67,9 @@ const Navbar = () => {
 							<Link href={ '/mugs' }>
 								<li className={ `${styles.navItem} ${router.pathname === '/mugs' && styles.active} cursor-pointer p-2 md:px-3 lg:px-10` }>Mugs</li>
 							</Link>
+							<Link href={ '/contact' }>
+								<li className={ `${styles.navItem} ${router.pathname === '/contact' && styles.active} cursor-pointer p-2 md:px-3 lg:px-10` }>Contact</li>
+							</Link>
 						</ul>
 					</nav>
 				</div>
