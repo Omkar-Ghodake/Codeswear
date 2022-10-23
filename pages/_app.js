@@ -5,9 +5,11 @@ import Footer from '../layouts/Footer'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
-      <Component { ...pageProps } />
-      <Footer />
+      <div className='m-0 p-0 overflow-x-hidden'>
+        <Navbar />
+        <Component { ...pageProps } />
+        <Footer />
+      </div>
     </>
   )
 }
